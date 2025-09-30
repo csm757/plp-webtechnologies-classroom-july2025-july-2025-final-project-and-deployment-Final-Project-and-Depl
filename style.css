@@ -1,0 +1,108 @@
+h1 {
+  color: navy;
+  margin-bottom: 10px;
+}
+h2 {
+  color: darkorange;
+  margin-bottom: 8px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: darkslategray;
+  background-color: whitesmoke;
+}
+
+/* Header */
+header {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav ul li {
+  margin: 5px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover,
+.active {
+  background-color: orange;
+  color: black;
+}
+
+/* Page sections */
+main {
+  padding: 50px 20px;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.home {
+  background-color: lightskyblue;
+}
+
+.about {
+  background-color: whitesmoke;
+}
+
+.contact {
+  background-color: lightyellow;
+}
+
+/* Buttons */
+button {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: darkorange;
+}
+
+/* Contact form */
+input, textarea {
+  width: 90%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 120px;
+}
+
+/* Footer */
+footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
